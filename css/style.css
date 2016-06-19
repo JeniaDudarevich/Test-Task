@@ -1,0 +1,87 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Tahoma;
+	background-color: #eae9e4;
+}
+.wrapper {
+	width: 1000px;
+	margin: 0 auto;
+}
+.main_section {
+	margin: 89px 0 0 91px;
+}
+
+.block {
+	width: 376px;
+	overflow: hidden;
+	display: inline-block;
+	background-color: #ffffff;
+	padding: 14px 0 13px 3px;
+	box-sizing: border-box;
+}
+.block:nth-child(odd) {
+	margin-right: 59px;
+}
+.block:nth-child(1), .block:nth-child(2) {
+	margin-bottom: 5px;
+}
+.block:nth-child(2n) {
+	vertical-align: top;
+}
+.block img, .description {
+	float: left;
+}
+.group_block {
+	padding-bottom: 18px;
+}
+.group_block:last-child {
+	padding-bottom: 0;
+}
+.boundary_block {
+	width: 88px;
+	height: 500px;
+	float:right;
+	border: 1px solid #000000;
+}
+.description {
+	max-width: 310px;
+	padding-left: 5px;
+}
+.description p {
+	font-size: 13px;
+	color: #2d2d2d;
+}
+.description p:first-child {
+	font-weight: bolder;
+}
+.number {
+	display: inline-block;
+	padding-left: 36px;
+}
+.number p {
+	font-size: 13.55px;
+	color: #3341c9;
+}
+.date {
+	float: right;
+	padding: 26px 14px 0 0;
+}
+.date p {
+	font-size: 10.54px;
+	color: #9e9e9e;
+}
+#makeMeDraggable2 .date, #makeMeDraggable5 .date, #makeMeDraggable7 .date, #makeMeDraggable9 .date, #makeMeDraggable10 .date {
+	padding-top: 0;
+}
+#makeMeDraggable6 .date, #makeMeDraggable8 .date {
+	padding-top: 18px;
+}
+#makeMeDraggable9 .number, #makeMeDraggable10 .number {
+	padding-left: 24px;
+}
+#makeMeDraggable9 .number p, #makeMeDraggable10 .number p {
+	color: green;
+}
